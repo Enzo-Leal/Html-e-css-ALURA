@@ -31,25 +31,12 @@ nav a {
 nav a:hover{
     color: #00e787;
     text-decoration: underline;
-
 }
 
 .produtos {
     width: 940px;
     margin: 0 auto;
     padding: 50px 0;
-}
-
-.produtos li:hover {
-    border-color: #00ff4c;
-}
-
-.produtos li:active{
-    border-color: rgba(211, 30, 120, 0.603);
-}
-
-.produtos li:hover h2 {
-    font-size: 34px;
 }
 
 .produtos li {
@@ -64,6 +51,17 @@ nav a:hover{
     border-radius: 10px;
     }
 
+.produtos li:hover {
+    border-color: #00ff4c;
+}
+
+.produtos li:active{
+    border-color: rgba(211, 30, 120, 0.603);
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
 .produtos h2{
     font-weight: bold;
 }
@@ -82,7 +80,7 @@ nav a:hover{
 footer{
     text-align: center;
     background: url("bg.jpg");
-    padding: 40px 20px;
+    padding: 40px 0px;
 }
 
 .copyright{
@@ -101,14 +99,18 @@ main{
 form{
     margin: 40px 0;
 }
-form label {
+form label, form legend {
     display: block;
     font-size: 20px;
     margin-bottom: 10px;
 }
-form input{
+.input-padrao{
     display: block;
     margin-bottom: 20px;
     padding: 10px 25px;
     width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
 }
